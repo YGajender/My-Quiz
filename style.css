@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    background-image: url(./background\ image.webp);
+    background-size: cover;
+    /* background-color: #f4f4f4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#wrapper {
+    display: none;
+    width: 800px;
+    padding: 39px 20px 20px 20px;
+    background: #ffffff65;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+#quiz {
+    text-align: center;
+}
+
+.timer {
+    font-size: 2rem;
+    color: #ff6347;
+}
+
+.questions {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+   
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    background:#E4003A;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 400ms;
+
+  
+}
+
+.options .option:hover
+{
+    transform: scale(1);
+    background-color: #000;
+    color: #fff;
+}
+.pointer-none {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.hidden
+{
+    display: none !important;
+}
+#score {
+    text-align: center;
+}
+
+#score h1 {
+    font-size: 2rem;
+    color: #333;
+}
+.pointer-none 
+{
+    pointer-events: none !important;
+}
+.timer {
+    margin-bottom: 50px;
+    float: right;
+    border-radius: 50%;
+    background-color:#E4003A;
+    color: white;
+    padding: 10px 17px;
+   height: 50px;
+   width: 50px;
+    font-size: 29px;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+
+  #input-name {
+    background-color: #ffffff6e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  #input-name input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  #input-name input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  #input-name button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:#E4003A;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #input-name button:hover {
+    background-color:#000;
+  }

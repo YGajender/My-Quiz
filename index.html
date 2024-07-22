@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">z
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input-name">
+        <input type="text" id="username" placeholder="Enter Your Name">
+        <input type="email"  id="gmail" placeholder="Enter Your Email" required>
+        <button id="start-quiz">Click</button>
+      </div>
+      
+    <div id="wrapper">
+        <div id="quiz">
+            <p class="timer"></p>
+            <p class="questions"></p>
+            <div class="options">
+                <p class="option"></p>
+                <p class="option"></p>
+                <p class="option"></p>
+                <p class="option"></p>
+            </div>
+        </div>
+        <div id="score" class="hidden">
+            <h1>Your Score:  <span></span></h1>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
